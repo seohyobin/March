@@ -1,0 +1,15 @@
+#wrap {
+  width: 100%;
+}
+#wrap .container {
+  width: 100%;
+  height: 100%;
+  background: rgb(180, 218, 242);
+}
+#wrap .container h1 {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}

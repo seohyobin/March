@@ -1,0 +1,6 @@
+components
+    WrapComponent.jsx
+
+
+    상하는 패딩 ===>마진 안써
+    좌우는 마진

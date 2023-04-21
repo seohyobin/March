@@ -1,0 +1,49 @@
+react 홈페이지 연결하는 법
+
+
+Tip: Minify JavaScript for Production
+Before deploying your website to production, be mindful that unminified JavaScript can significantly slow down the page for your users.
+
+If you already minify the application scripts, your site will be production-ready if you ensure that the deployed HTML loads the versions of React ending in production.min.js:
+------------->
+
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+
+
+https 복사 다른이름 저장!! ->js/lib 폴더에 저장
+
+
+Quickly Try JSX
+The quickest way to try JSX in your project is to add this <script> tag to your page:
+--------------------->
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+https 복사 다른이름 저장!! ->js/lib 폴더에 저장
+
+html script연결할때
+///////////////////오픈소스
+    <script src="./js/lib/react.production.min.js"></script>
+    <script src="./js/lib/react-dom.production.min.js"></script>
+    <script src="./js/lib/babel.min.js"></script>
+순서로 연결!!!
+
+////////////사용자
+<script type="text/babel" src="./js/react_web.jsx" defer></script>
+
+
+
+러턴문은 반드시 하나의 태그만 가능//하나로만 묶어!!!  div
+
+
+{}중괄호 사용하면 프롭스 이름 바로 받을수있음
+
+///////////////////////////////////////////////////웨딩연결
+
+
+render함수 안에는 연결한 요소인 root만 ; 사용 안도ㅐ
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+components 폴더
+ WrapComponent.jsx
+    폴더 wrap 
+        TopModalComponent.jsx
+        HeaderComponent.jsx
+        MainComponent.jsx
+        FooterComponent.jsx

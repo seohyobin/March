@@ -1,0 +1,21 @@
+Plan
+
+
+1.public
+    css
+    img
+    js
+    scss
+    index.html  =>DOM컨테이너=> id #root
+    popup.html
+
+2.src
+    React
+    ReactDOM =>가상 돔(DOM)
+    index.js
+        components
+         WrapComponenet.jsx
+            wrap
+                HeaderComponenet.jsx
+                MainComponenet.jsx
+                FooterComponenet.jsx

@@ -1,0 +1,24 @@
+
+
+
+폴더 components
+    WrapComponent.jsx
+        폴더 wrap
+            SkipComponent.jsx
+            HeaderComponent.jsx
+            MainComponent.jsx
+                폴더 main
+                    Section01Component.jsx
+                    Section02Component.jsx
+                    Section03Component.jsx
+                    Section04Component.jsx
+                    Section05Component.jsx
+                    Section06Component.jsx
+                    Section07Component.jsx
+                    Section08Component.jsx
+                    Section09Component.jsx
+                    Section10Component.jsx
+                    Section11Component.jsx
+                    Section12Component.jsx
+            FooterComponent.jsx
+            GoComponent.jsx

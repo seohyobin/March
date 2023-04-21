@@ -1,0 +1,62 @@
+open jdk
+
+비주얼=>확장프로그램
+-> java
+
+자바==========
+args 전달인자 값 ->아규먼트 값
+
+
+
+println 라인피드 줄바꿈이 발생
+  System.out.println("");  "" 사용!
+
+System.out.println("\n -------------new line 이스케이프 역슬래시--------------------");
+
+
+컨트롤 ,
+
+=.>Java › Inlay Hints › Parameter Names: Exclusions can be used to disable the inlay hints for methods.
+
+
+none
+
+        public static int hap(int a, int b) {
+            
+        }
+
+int 반드시 자료형 적어
+
+    public static int hap(int a, int b) {
+            return a + b;
+            
+        }hap매소드 호출하면 값돌려줄겡
+
+
+
+C:\Program Files\Java\jdk-11\bin
+
+
+C:\Program Files\Java\java-se-8u42-ri
+
+
+C:\Program Files\Java\jdk-17
+_
+setting
+	JAVA RUNTime ->검색
+
+
+      "java.configuration.runtimes": [
+            {//자바 JDK 8
+              "name": "JavaSE-1.8",
+              "path": "C:\\Program Files\\Java\\java-se-8u42-ri\\bin",
+              "default": true
+            },
+            {//자바 JDK 11
+              "name": "JavaSE-11",
+              "path": "C:\\Program Files\\Java\\jdk-11\\bin",
+              "default": false
+            }
+      ],
+
+

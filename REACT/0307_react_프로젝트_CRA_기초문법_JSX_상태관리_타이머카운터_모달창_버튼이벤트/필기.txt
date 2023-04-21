@@ -1,0 +1,12 @@
+const [state, setState] = useState();
+state 객체 속송
+setState 함수
+
+isModal =========is쓰면 논리변수 true false
+
+useState({});->객체는 중괄호
+
+
+인증번호=========줄구분 ,div박스
+
+입려상자있으면 method='post'  다 포스트

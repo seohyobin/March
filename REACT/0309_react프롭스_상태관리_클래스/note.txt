@@ -1,0 +1,64 @@
+React 생략.Component
+
+class  rootCom{
+    init(){
+
+    }
+    section1(){
+
+    }
+}
+
+class Wedding extends rootCom{
+    init(){
+
+    }
+    section1(){
+
+    }
+}
+rootCom이거 상속받는거
+부모 상위 컴퍼넌트 내용 상속 가능
+
+
+constructor(){}-<함수
+
+
+
+함수등록할때
+
+
+ onClickAdd const 앞에 사용 안돼 render함수 밑에 사용할때
+함수형은(...state사용해야해)
+
+     //1씩 증가 클릭 이벤트 함수->상태 변경->세터함수 이용
+    onClickAdd=(e)=>{
+        e.preventDefault();
+        this.setState({
+            cnt: this.state.cnt + 1
+        })
+
+    }
+      //1씩 감소 클릭 이벤트 함수->상태 변경->세터함수 이용
+    onClickSub=(e)=>{
+        e.preventDefault();
+        this.setState({
+            cnt: this.state.cnt - 1
+        })
+
+    }
+...state사용 안해도 돼/써도 상관없음!!!->안없어짐
+  내가 지정하는 거는 사용해줘야함
+
+
+
+    OnClickTodoListAddStorage =(e)=>{
+        e.preventDefault();
+        //localStorage 저장하기 : 문자열로 저장된다, 객체 저장 (object)문자열로 변환하고 저장
+        // localStorage.setItem(키key,값value)
+        localStorage.setItem('TODO',JSON.stringify(this.state.todoList)); 
+//얘만 있으면 새로고침하면 화면에 안나와!!! getter있어야 회면에 나타남
+//얘는 새로운 데이터로 덮어쓰기돼
+    }
+
+

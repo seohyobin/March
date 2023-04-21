@@ -1,0 +1,173 @@
+#wrap {
+  width: 100%;
+}
+#wrap #header {
+  width: 100%;
+}
+#wrap #header .gap {
+  width: 100%;
+}
+#wrap #header .gap .content {
+  width: 100%;
+}
+#wrap #header .gap .content .row1 {
+  width: 100%;
+}
+#wrap #header .gap .content .row1 .right {
+  width: 100%;
+}
+#wrap #header .gap .content .row1 .right .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#wrap #header .gap .content .row1 .right .container ul {
+  display: flex;
+  height: 35px;
+  align-items: center;
+  justify-content: right;
+}
+#wrap #header .gap .content .row1 .right .container ul li a {
+  font-size: 12px;
+  letter-spacing: -0.3px;
+  color: #333;
+}
+#wrap #header .gap .content .row1 .right .container ul li i {
+  margin: 0 7px;
+  font-size: 12px;
+  letter-spacing: -0.3px;
+  color: #999;
+}
+#wrap #header .gap .content .row2 {
+  width: 100%;
+}
+#wrap #header .gap .content .row2 .container {
+  width: 100%;
+  max-width: 1050px;
+  height: 63px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#wrap #header .gap .content .row2 .container .left {
+  width: 325px;
+}
+#wrap #header .gap .content .row2 .container .left div {
+  width: 100%;
+}
+#wrap #header .gap .content .row2 .container .left div img {
+  width: auto;
+}
+#wrap #header .gap .content .row2 .container .left div a {
+  font-size: 17px;
+  color: #5f0080;
+  font-weight: 600;
+  margin: 0 0 0 10px;
+}
+#wrap #header .gap .content .row2 .container .left div i {
+  margin: 0 0 0 10px;
+}
+#wrap #header .gap .content .row2 .container .left div span a {
+  font-size: 17px;
+  font-weight: 500;
+  color: #CCC;
+}
+#wrap #header .gap .content .row2 .container .center {
+  width: 400px;
+  display: flex;
+  position: relative;
+}
+#wrap #header .gap .content .row2 .container .center input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #5f0080;
+  border-radius: 5px;
+  font-size: 15px;
+  color: rgb(51, 51, 51);
+  padding: 5px 11px 5px 14px;
+}
+#wrap #header .gap .content .row2 .container .center span {
+  position: relative;
+}
+#wrap #header .gap .content .row2 .container .center span img {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+#wrap #header .gap .content .row2 .container .right {
+  width: 325px;
+}
+#wrap #header .gap .content .row2 .container .right span {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: right;
+}
+#wrap #header .gap .content .row2 .container .right span a img {
+  font-size: 14px;
+  margin-left: 20px;
+}
+#wrap #header .gap .content .row3 {
+  width: 100%;
+}
+#wrap #header .gap .content .row3 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#wrap #header .gap .content .row3 .container .left {
+  width: 225px;
+  padding: 18px 0 0 0;
+}
+#wrap #header .gap .content .row3 .container .left div {
+  width: 100%;
+}
+#wrap #header .gap .content .row3 .container .left div a {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+#wrap #header .gap .content .row3 .container .left div a img {
+  margin-right: 7px;
+}
+#wrap #header .gap .content .row3 .container .center {
+  width: 600px;
+}
+#wrap #header .gap .content .row3 .container .center ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrap #header .gap .content .row3 .container .center ul li {
+  padding: 18px 0 0 0;
+}
+#wrap #header .gap .content .row3 .container .center ul li a {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+#wrap #header .gap .content .row3 .container .right {
+  position: relative;
+  width: 225px;
+  justify-content: right;
+  align-items: center;
+}
+#wrap #header .gap .content .row3 .container .right a {
+  height: 32px;
+  padding: 18px 0 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid #999;
+  border-radius: 16px;
+}
+#wrap #header .gap .content .row3 .container .right a span {
+  vertical-align: baseline;
+}

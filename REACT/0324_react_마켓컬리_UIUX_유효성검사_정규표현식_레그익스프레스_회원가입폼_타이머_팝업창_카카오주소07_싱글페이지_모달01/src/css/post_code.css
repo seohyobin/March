@@ -1,0 +1,10 @@
+#postcode {
+  position: fixed;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  margin-top: -284.5px;
+  margin-left: -265px;
+  width: 530px;
+  height: 569px;
+}

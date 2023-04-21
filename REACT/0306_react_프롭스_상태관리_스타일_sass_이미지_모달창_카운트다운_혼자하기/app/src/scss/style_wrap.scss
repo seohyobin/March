@@ -1,0 +1,40 @@
+#wrap{
+    width: 100%;
+    text-align: center;
+    padding: 130px 0;
+    color: rgb(85, 125, 226);
+    background: rgb(180, 218, 242);
+    padding: 70px 0 ;
+    .container{
+        width: 100%;
+        height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        h1{
+            font-size: 100px;
+        }
+        img{
+            margin: 50px 0 0 0;
+            width:500px ;
+            height: 500px;
+        }
+        button{
+            display: block;
+            margin: 50px 0 0 890px;
+            padding: 0 30px;
+            height: 50px;
+            background: #000;
+            color: #fff;
+            font-size: 17px;
+            border: 0;
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover{
+                background-color: #444;
+            }
+        }
+    }
+}

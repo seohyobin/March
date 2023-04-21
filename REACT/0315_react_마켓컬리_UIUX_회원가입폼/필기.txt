@@ -1,0 +1,35 @@
+{/* 소괄호안은 태그 1개만 사용가능 하나더 쓰고 싶으면 빈태그 이용해서 묶어서 사용!!
+; 쓰지마 내부에서 !! 함수는 사용가능 */}
+                                        {
+                                            state.isSub2&&(
+                                                <div className="sub2">
+                                                <ul>
+                                                    <li>
+                                                        <span>배송지를 등록</span>하고
+                                                    </li>
+                                                    <li>
+                                                     구매 가능한 상품을 확인하세요!
+                                                    </li>
+                                                    <li>
+                                                    <button>로그인</button>
+                                                    <button>
+                                                        <img src="./images/sign_up/ico_search.svg" alt="" />
+                                                        주소검색
+                                                    </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            )
+                                        }
+
+
+
+이미지 
+jpg 24비트  = 256*256*256 비트맵
+gif 8비트 = 256 , 애니메이션 비트맵
+png 24비트 = 배경이 투명도 지원 비트맵
+svg 24비트 =애니메이션 백터방식 확대해도 안깨져
+
+
+
+span label다 인라인
